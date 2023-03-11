@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TradeOgre Price Checker</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <h1>TradeOgre Price Checker</h1>
+    <div class="price-container">
+      <div class="price-column">
+        <div class="price-label">BTC-KAS Price:</div>
+        <div class="price-value" id="price"></div>
+      </div>
+      <div class="price-column">
+        <div class="price-label">USD Value:</div>
+        <div class="price-value" id="usd-price"></div>
+      </div>
+    </div>
+    <div class="chart-container">
+      <canvas id="price-chart"></canvas>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="chart.js"></script>
+    <script src="Trading_Indicators/bollinger-bands.js"></script>
+    <script src="Trading_Indicators/ema.js"></script>
+    <script src="Trading_Indicators/macd.js"></script>
+    <script src="Trading_Indicators/rsi.js"></script>
+    <script src="Trading_Indicators/stochastic.js"></script>
+  </body>
+</html>
